@@ -4,7 +4,7 @@
 * [effective Python (2014)](https://effectivepython.com/) <sup name = "footnote1">[1](#footnote1)</sup>(Brett Slatkin, Pearson Education Inc) study.
 
 <p align="center">
-  ![alt text](https://effectivepython.com/images/cover.jpg "book cover")
+  <img src="https://effectivepython.com/images/cover.jpg">
 </p>
 
 * Brett Slatkin's example code([GitHub](https://github.com/bslatkin/effectivepython))
