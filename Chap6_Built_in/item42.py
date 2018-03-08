@@ -47,46 +47,6 @@ def fibonacci_trace_good(n):
     return (fibonacci(n - 2) + fibonacci(n - 1))
 
 
-    try:
-        # Example of how pickle breaks
-        import pickle
-
-        def my_func():
-            return 1
-
-        # This will be okay
-        print('pickle.dumps(my_func)',pickle.dumps(my_func))
-
-        @trace
-        def my_func2():
-            return 2
-
-        # This will explode
-        print(pickle.dumps(my_func2))
-    except:
-        print('Expected exception')
-
-
-    try:
-        # Example of how pickle breaks
-        import pickle
-
-        def my_func():
-            return 1
-
-        # This will be okay
-        print('pickle.dumps(my_func)',pickle.dumps(my_func))
-
-        @trace_good
-        def my_func2():
-            return 2
-
-        # This will not explode
-        print('pickle.dumps(my_func2)', pickle.dumps(my_func2))
-    except:
-        print('Expected exception')
-
-
 if __name__=="__main__":
     result = fibonacci(3) # O.K
 
