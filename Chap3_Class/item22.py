@@ -1,5 +1,9 @@
 #!/usr/bin/env Python
 '''
+* Brett Slatkin, 2014, "effective Python"
+* Brett Slatkin's example code([GitHub](https://github.com/bslatkin/effectivepython))
+* I modified the example code a bit to confirm my understanding.
+
 Refactoring the class: Writing the helper class
 '''
 

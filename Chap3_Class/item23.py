@@ -1,5 +1,9 @@
 #!/usr/bin/env Python
 '''
+* Brett Slatkin, 2014, "effective Python"
+* Brett Slatkin's example code([GitHub](https://github.com/bslatkin/effectivepython))
+* I modified the example code a bit to confirm my understanding.
+
 Accept functions for simple interfaces instead of classes.
 Functions and methods can be pased around and refereced like any other value.
 '''

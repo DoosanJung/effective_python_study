@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 '''
+* Brett Slatkin, 2014, "effective Python"
+* Brett Slatkin's example code([GitHub](https://github.com/bslatkin/effectivepython))
+* I modified the example code a bit to confirm my understanding.
+
 Use plain attributes instead of get and set methods
 '''
 # explicit getter and setter methods: Not Pythonic.

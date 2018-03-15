@@ -7,6 +7,7 @@
   <img src="https://effectivepython.com/images/cover.jpg">
 </p>
 
+
 * Brett Slatkin's example code([GitHub](https://github.com/bslatkin/effectivepython))
 
 * I bought this book this year. I modified the example code a bit to confirm my understanding.
